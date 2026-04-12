@@ -1,0 +1,42 @@
+; ==============================
+; ch1_bathroom.txt - 浴室场景（合流）
+; ==============================
+changeBg:black.png;
+playEffect:se_hairdryer.mp3 -volume=10 ;
+changeBg:cg_bathroom_mirror.png -next;
+changeFigure:none -next;
+changeFigure:caiwei_towel.png;
+changeBg:bathroom.png -next;
+changeFigure:caiwei_towel_01_shocked.png -next;
+兰采薇: -next;
+setTextbox:on -next;
+……啊。
+playEffect:none -next;
+bgm:Habanera-(from-Carmen).mp3 -enter=3000;
+changeFigure:none -next;
+changeFigure:xinye_student_06_happy.png -next;
+于星烨:……哦。;
+changeFigure:none -next;
+changeFigure:caiwei_towel_01_shocked.png -next;
+兰采薇:啊啊啊啊啊啊——！！;
+changeFigure:none -next;
+changeFigure:xinye_student_04_confused.png -next;
+于星烨:啊啊啊啊啊啊——！！;
+changeFigure:none -next;
+changeFigure:caiwei_towel_02_angry.png -next;
+兰采薇:你是怎么进来的？！;
+changeFigure:xinye_student_04_confused.png -next;
+于星烨:你怎么会看得见我？！;
+playEffect:se_throw.mp3;
+changeFigure:caiwei_towel_02_angry.png -next;
+兰采薇:看得见啊！为什么啊，为什么穿过去了！;
+changeFigure:xinye_student_04_confused.png -next;
+于星烨:别扔了！砸不到的！我！我可以解释！！;
+changeFigure:caiwei_towel_02_angry.png -next;
+兰采薇:你先出去啊！;
+changeFigure:xinye_student_04_confused.png -next;
+于星烨:喔！！;
+changeFigure:none -next;
+setTextbox:hide;
+changeBg:black.png;
+changeScene:ch1_after_bath.txt;

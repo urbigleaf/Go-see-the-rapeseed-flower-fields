@@ -1,0 +1,20 @@
+; ==============================
+; 第3章 Part 2 - 道歉与核心对话
+;==============================
+changeBg:rapeseed_field.png -next;
+changeFigure:xinye_sad.png -left;
+changeFigure:caiwei_normal.png -right;
+于星烨:我想跟你道个歉。;
+changeFigure:caiwei_normal.png -right;
+兰采薇:跟我？;
+于星烨:你没有来学校以来，我一直都很想去你家看看你。但是我不敢……一直拖到今天。;
+于星烨:要是早知道你这么痛苦的话……;
+changeFigure:caiwei_sad.png -right;
+兰采薇:……你又能为我做什么呢？;
+于星烨:…………;
+;
+; ===== 第二个选择 =====
+changeFigure:none -left -next;
+changeFigure:none -right -next;
+:（你该怎么说？）;
+choose:「至少……我可以陪在你身边。」:choice2_good.txt|「我也不知道……」:choice2_bad.txt;

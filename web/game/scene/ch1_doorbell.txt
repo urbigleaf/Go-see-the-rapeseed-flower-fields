@@ -1,0 +1,31 @@
+; ==============================
+; ch1_doorbell.txt - 按门铃（穿过去了）
+; ==============================
+changeBg:scene_hallway_door.png -next;
+changeFigure:none -next;
+: -next;
+setTextbox:on -next;
+手指碰到了电子门铃，然后穿过了它进入了门后。
+changeBg:living_room.png -next;
+:意识到的时候，我已经站在客厅里面了。;
+;setTextbox:on;
+setTextbox:hide -next;
+changeFigure:xinye_student_02_shy.png -next;
+于星烨: -next;
+setTextbox:on -next;
+……那个~不好意思~;
+changeFigure:none -next;
+changeFigure:xinye_student_01_normal.png -next;
+于星烨:……果然，她的父母都上班去了吧。;
+于星烨:她的房间是——;
+setTextbox:hide -next;
+changeFigure:none -next;
+changeBg:bedroom_outside.png;
+changeFigure:xinye_student_01_normal.png -next;
+于星烨: -next;
+setTextbox:on -next;
+……这次一定得好好敲门。;
+changeFigure:none -next;
+setTextbox:hide;
+choose:敲敲门:ch1_knock.txt;
+

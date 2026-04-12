@@ -1,0 +1,183 @@
+; ==============================
+; 第2章 春天的轻轨
+; ==============================
+changeBg:train_inside.png -next;
+changeFigure:none;
+bgm:debussy_clair_de_lune.mp3 -next;
+: -next;
+setTextbox:on -next;
+小学六年级的时候，我搬了家。;
+:搬家前，星烨和我是对门的邻居。;
+:他的父母工作都很忙，星烨从三年级开始在我家吃晚饭。;
+:我们念同一个幼儿园、同一个小学，小学还是同班同学。;
+:一起上学，一起放学，好得和亲兄妹没有差别。;
+:直到那件事发生——;
+changeBg:black.png;
+changeFigure:none -next;
+:小学五年级的时候，爸爸因为工伤去世了。;
+setTextbox:hide;
+changeBg:apartment_outside.png -next;
+changeFigure:caiwei_child_02_angry.png -left -next;
+changeFigure:xinye_child_08_sad.png -right -next;
+兰采薇: -next;
+setTextbox:on -next;
+不要跟着我！我去哪里和你有什么关系！你算我的什么人！你管我！;
+于星烨:怎能不管你呢？你去哪我就去哪，好吗？;
+changeFigure:none -left -next;
+changeFigure:none -right -next;
+:我没有哭。……至少我没有哭出来。|但是，他却因为我而哭了。
+这让我感到很高兴，不过，我没有说出口。
+setTextbox:hide -next;
+changeBg:black.png -next;
+: -next;
+setTextbox:on -next;
+大人们为了赔偿的事，每天去父亲的公司找人吵架。
+媒体踏破了我家的门槛。
+终于有一天，我感到再也忍受不了这一切了，|自己一个人偷偷溜出了家门。;
+我不想在那样的“家”里待下去了，没有人在意我的悲伤。;
+每天每天，家里回响的只是“赔偿”和“钱”的音节而已;
+钱、钱、钱。
+——现在回想起来，从那时候起，
+我的心里就不再把那里当做自己的家了。;
+changeBg:cg_bus_children.png -next;
+changeFigure:none -next;
+两个小学生坐公共汽车，|漫无目的在城市里穿行。
+对孩子来说，|就像是前往世界尽头的旅行。;
+; ===== 油菜花田回忆 =====
+changeBg:rapeseed_field.png -next;
+:汽车的终点站下车后是乡道，|再向前走十分钟，;
+:眼前是春天的|金灿灿的油菜花田。;
+:我们坐在那里，一起看着花田，度过了一个下午。;
+:当时说了些什么，做了些什么，哭了没有，已经不记得了。;
+:记得很清楚的事情是，回去的时候我们约定，;
+:"有机会的话，再一起去看油菜花田吧。";
+:——仅仅一年后，母亲再婚了。她卖掉了房子，我们从那里搬走了。|她和叔叔组成了新的家庭。;
+setTextbox:hide -next;
+;bgm:none -enter=3000;
+changeBg:black.png;
+;
+; ===== 回到车厢 =====
+changeBg:train_inside.png;
+playEffect:se_railway.mp3 -volume=15 -id=railway;
+changeFigure:xinye_student_03_sad.png -next;
+于星烨: -next;
+setTextbox:on -next;
+……阿姨最近还好吗？;
+changeFigure:caiwei_casual_01_normal.png -next;
+兰采薇:…她怀孕了，两个月前。;
+changeFigure:xinye_student_01_normal.png -next;
+于星烨:…………那、你感觉怎么样？;
+changeFigure:caiwei_casual_01_normal.png -next;
+兰采薇:没感觉怎么样吧。
+什么样的反应才是正确的呢？|我应该为她祝福吗？;
+changeFigure:xinye_student_03_sad.png -next;
+于星烨:…………也不是说要为她祝福……;
+changeFigure:caiwei_casual_01_normal.png -next;
+兰采薇:这个世界不是以我们为中心转动的，|从那时候起我就知道了。;
+兰采薇:很多事情都没有办法，我妈妈嫁人也是，她卖房子搬家也是。;
+兰采薇:我们还是小孩子，小孩子能决定什么事呢。;
+兰采薇:我和你那时候捡到的小猫也是的，怎么哭着哀求大人，还是不准我们养。;
+兰采薇:明明说好了我们一起偷偷地养它，每天去照顾它，最后也没有养活。;
+changeFigure:xinye_student_08_surprised.png -next;
+于星烨:………………你还记得啊。;
+changeFigure:caiwei_casual_02_angry.png -next;
+兰采薇:记得啊。为什么会觉得我不记得？;
+changeFigure:xinye_student_03_sad.png -next;
+于星烨:因为……我以为你忘了。;
+changeFigure:none -next;
+setTextbox:hide -next;
+playEffect:none -id=railway;
+; ===== 星烨的独白 =====
+changeBg:black.png;
+: -next;
+setTextbox:on -next;
+她今天的样子就好像……我们从未分离过。;
+;bgm:debussy_clair_de_lune.mp3
+changeBg:apartment_outside.png -transform={"colorRed":191,"colorGreen":181,"colorBlue":145} -next;
+changeFigure:none -next;
+:小学六年级时，她去了远方——虽然只是搬去了两个街区以外的地方生活，|但那时候我真的以为，我再也见不到她了。;
+:初中的时候，看到她的名字，虽然不是同班。;
+:开始我还以为只是同名同姓，但是在操场上认出她来时，我一下子好高兴。;
+:但是那时，她没有和我打招呼。|和她打招呼，她也假装不认识我。;
+:不需要多长时间，我就知道她讨厌我了。我没有勇气去问她为什么不理我。;
+:总有一些人，当你隔了一段时间再见到他时，你会发现他好像变成了另一个人。;
+:用另一种语气，另一种称呼和你打招呼。;
+像换了皮的螃蟹，用一个新的壳子把过去的自己包裹住。;
+:初二时，我们重新成为同班同学。|——那时候我又不再期待她能和我打招呼了。;
+:我对自己说——|她是女生，我是男生。光这一个理由就足够了。;
+setTextbox:hide;
+;
+; ===== 回到车厢：问为什么不理我 =====
+changeBg:train_inside.png;
+changeFigure:xinye_student_01_normal.png -next;
+于星烨: -next;
+setTextbox:on -next;
+……有一件事情，我果然还是想听你亲口回答我。就是……
+初一的时候，还记得吗，那时我们不是同班同学。|每次我和你打招呼时，为什么，你都不理我呢？;
+changeFigure:caiwei_casual_04_shy.png -next;
+兰采薇:那是因为……那是因为！
+每次我身边有别人在啊！我要是一个人的时候，我肯定会理你的啊！
+changeFigure:caiwei_casual_02_angry.png -next;
+这么简单的事都没发现吗？！;
+changeFigure:xinye_student_08_surprised.png -next;
+于星烨:………………
+changeFigure:xinye_student_03_sad.png -next;
+于星烨:我没懂。;
+changeFigure:caiwei_casual_04_shy.png -next;
+兰采薇:你总是在我身边有别的女生的时候跟我打招呼。
+所以那种时候，我不会理你。;
+changeFigure:xinye_student_03_sad.png -next;
+于星烨:我还是没懂。为什么有别的女生在，我就不能和你说话了。;
+changeFigure:caiwei_casual_01_normal.png -next;
+兰采薇:她们会起哄的。……会传你和我的流言。然后，流言就会越传越离谱。;
+changeFigure:xinye_student_05_serious.png -next;
+于星烨:但是，这都是别人的事吧，和我们自己之间没关系吧。;
+changeFigure:caiwei_casual_01_normal.png -next;
+兰采薇:很无聊吧。但是，就因为这些无聊的人占了世界上大多数，所以我们不得不顺着他们的习惯来生活。;
+changeFigure:caiwei_casual_05_sad.png -next;
+changeFigure:caiwei_casual_01_normal.png -next;
+兰采薇:如果不学会保护自己，就会被世界欺负。;
+changeFigure:xinye_student_08_surprised.png -next;
+changeFigure:xinye_student_03_sad.png -next;
+changeFigure:caiwei_casual_01_normal.png -next;
+兰采薇:我从很小的时候就明白这个道理了，你到现在都还没能明白。;
+setTextbox:hide -next;
+
+;
+; ===== 闪回：被欺负 =====
+
+changeFigure:none -next;
+changeBg:cg_magazine.png -transform={"colorRed":219,"colorGreen":200,"colorBlue":75} -next;
+changeBg:classroom.png -next;
+playEffect:se_school_chatter.mp3 -volume=10;
+changeFigure:npc_bully_A.png -next;
+setTextbox:on -next;
+程昌旭:外星人特辑。……飞碟？笑死。你这么喜欢外星人，是不是因为是你的亲戚啊？;
+changeFigure:npc_bully_B.png -next;
+江逸飞:外星人~我看他~长得也像外星人wwwwww;
+changeFigure:none -next;
+changeFigure:xinye_student_05_serious.png -next;
+于星烨:还给我。;
+changeFigure:npc_bully_A.png -next;
+程昌旭:抱歉，手滑了一下wwwwww;
+changeFigure:npc_bully_B.png -next;
+江逸飞:五楼而已，现在跑下去肯定还能找到！
+加油啊！我会支持你的！;
+playEffect:none -next;
+changeFigure:none -next;
+; ===== 采薇独白（闪回中） =====
+兰采薇:……我一直都看见了。
+:——只是喜欢超自然现象而已，有什么奇怪的？|人们会在人群中挑选特定的人拿捏，作乐。
+他从来没有意识到这一点。|他只关注自己想关注的东西，对不在意的事情视而不见。
+不伤害任何人，只是沉浸在兴趣爱好的世界里。
+——人难道不可以这样活着吗？ 
+:他的书被人从五楼窗口扔下去。|没有人收他的作业，害他被老师责骂。;
+:他的书包被一次又一次地泼脏水。|老师看到了也装没看见，甚至连不讨厌他的人都变得开始讨厌他。;
+:而我明明和他同班，|却还是和以前一样，一次也没有和他打过招呼。;
+:比谁都更清楚他的优点，|比谁都更加的受过他的帮助。;
+然而我什么也没有说，什么也没有做。;
+changeBg:black.png -next;
+bgm:none -enter=3000 -next;
+教室里的空气，那么沉闷。|令人窒息、想要呕吐。;
+setTextbox:hide;
+changeScene:chapter3.txt;

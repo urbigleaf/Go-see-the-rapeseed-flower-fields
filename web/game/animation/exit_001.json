@@ -1,0 +1,12 @@
+[
+  {
+    "alpha": 1,
+    "blur": 10,
+    "duration": 0
+  },
+  {
+    "alpha": 0,
+    "blur": 15,
+    "duration": 3000
+  }
+]

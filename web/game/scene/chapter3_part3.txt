@@ -1,0 +1,20 @@
+; ==============================
+; 第3章 Part 3 - 真心话与约定
+; ==============================
+changeBg:rapeseed_field.png -next;
+changeFigure:xinye_normal.png -left;
+changeFigure:caiwei_sad.png -right;
+:视线里是灿烂的油菜花田，阳光融化在上面，闪闪发光。;
+changeFigure:xinye_sad.png -left;
+:星烨强忍住了泪水。;
+于星烨:你不应该道歉，是我的错。不和我打招呼是对的。;
+changeFigure:caiwei_sad.png -right;
+兰采薇:你能有什么错？是那些欺负你的人有错。;
+兰采薇:我应该站出来，站在你身边……;
+于星烨:那样的话，被欺负的人就是你了。;
+;
+; ===== 第三个选择（关键） =====
+changeFigure:none -left -next;
+changeFigure:none -right -next;
+:（这到底是谁的错？你怎么想？）;
+choose:「不是我们的错。是那些欺负人的人有错，是旁观者有错。」:choice3_good.txt|「也许我们都有问题吧……」:choice3_bad.txt;

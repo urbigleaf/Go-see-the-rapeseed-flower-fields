@@ -1,0 +1,107 @@
+; ==============================
+; 第3章 油菜花田（主场景）
+; ==============================
+changeBg:rapeseed_field.png;
+playEffect:se_valley_bird.mp3 -volume=10 -id=valley -next=true;
+changeFigure:caiwei_casual_01_normal.png;
+兰采薇: -next;
+setTextbox:on -next;
+我在想。你的超能力，简直是我能想到的超能力里最没用的一种。;
+changeFigure:xinye_student_02_shy.png -next;
+于星烨:……呃，我自己也多多少少有这种感觉。|但是，话也不能说这么绝对吧。;
+changeFigure:caiwei_casual_01_normal.png -next;
+兰采薇:放着不管的话，大概多久能解除能力呢？;
+changeFigure:xinye_student_06_happy.png -next;
+于星烨:不知道啊。……说不定，一天？搞不好睡一觉醒来就好了。|毕竟没有过先例。;
+changeFigure:caiwei_casual_04_shy.png;
+changeFigure:caiwei_casual_01_normal.png -next;
+兰采薇:要是不能解除的话，你父母会报警的吧，他们肯定很着急。|到时候，我得想办法跟他们解释。;
+changeFigure:caiwei_casual_02_angry.png -next;
+兰采薇:……真的只有我能看见和碰到你吗？;
+changeFigure:xinye_student_02_shy.png -next;
+changeFigure:xinye_student_01_normal.png -next;
+于星烨:……嗯。;
+changeFigure:caiwei_casual_02_angry.png -next;
+兰采薇:受不了你，真的很没用啊。;
+changeFigure:xinye_student_02_shy.png -next;
+于星烨:没用……说的是我的能力……还是我这个人……;
+changeFigure:caiwei_casual_03_shocked.png -next;
+兰采薇:……都有。
+changeFigure:xinye_student_05_serious.png -next;
+于星烨:不能这么讲。光是穿墙术就很厉害了。|有了这能力，以后进迪士尼乐园或者海洋馆岂不免票。
+changeFigure:xinye_student_06_happy.png -next;
+而且刚才坐轻轨的时候也逃票了！！;
+changeFigure:caiwei_casual_03_shocked.png -next;
+changeFigure:caiwei_casual_02_angry.png -next;
+兰采薇:比起你说的事，我更介意触发条件。
+到底哪个部分才是让你变得透明的关键要素呢，
+……反正不可能是'阿玛忒拉斯'……因为大家都在说。;
+changeFigure:xinye_student_02_shy.png -next;
+于星烨:……突然间感到很丢人……;
+changeFigure:caiwei_casual_01_normal.png -next;
+兰采薇:穿墙的时候，是什么感觉？;
+changeFigure:xinye_student_06_happy.png -next;
+于星烨:嗯~能够摸到混凝土的钢筋，有一种粗糙的手感。|但是，我也能从钢筋的断面穿过去。;
+总之就是，一种冰冷，凉飕飕又黑暗的感觉。;
+changeFigure:caiwei_casual_02_angry.png -next;
+兰采薇:欸~突然间又不想知道了。;
+changeFigure:xinye_student_06_happy.png -next;
+于星烨:啊哈哈。;
+changeFigure:caiwei_casual_02_angry.png -next;
+兰采薇:结果还是除了偷窥以外，一点用也没有嘛。;
+changeFigure:xinye_student_04_confused.png -next;
+于星烨:那个是……误会！误会！;
+changeFigure:caiwei_casual_01_normal.png -next;
+兰采薇:除了我家以外，你还看了些什么？;
+如果我是你，我一定会首先把学校逛个遍，用自己的眼睛彻彻底底地看一遍。;
+你也看了吧。;
+changeFigure:xinye_student_08_surprised.png -next;
+于星烨:果然……采薇你还是那么厉害。;
+changeFigure:caiwei_casual_01_normal.png -next;
+兰采薇:？;
+changeFigure:xinye_student_01_normal.png -next;
+于星烨:从小我就觉得……你又聪明，又有主见，又很坚强。……而且你总是对的。|你完全预判了我。;
+changeFigure:caiwei_casual_04_shy.png;
+兰采薇:……………………什么嘛……;
+changeFigure:xinye_student_01_normal.png -next;
+于星烨:我是想过哦，可能是因为你太聪明了，所以才不想去学校。
+毕竟这种学校，确实没什么值得期待的。同学都是一般人，也理解不了你。;
+changeFigure:caiwei_casual_01_normal.png -next;
+兰采薇:老师也不太行。;
+changeFigure:xinye_student_06_happy.png -next;
+于星烨:确实不太行！……说到这个！……猜我究竟看到了什么？;
+早上第一节课间的时候，吴老师在茶水间里和她老公在电话里吵架……;
+好像是车撞了，要赔保险……;
+changeFigure:caiwei_casual_01_normal.png -next;
+兰采薇:……好无聊啊。;
+changeFigure:xinye_student_06_happy.png -next;
+于星烨:还有，陈老师的手机里，偷偷藏了好多黄色小电影……他就在自己的工位上看！;
+changeFigure:caiwei_casual_01_normal.png -next;
+兰采薇:一点也不意外。他就是这种人，老喜欢和女生没话找话。;
+changeFigure:xinye_student_06_happy.png -next;
+于星烨:还有，教导主任！孙主任！他在自己的工位上脱了鞋抠脚，然后闻自己的手闻入了迷……;
+changeFigure:caiwei_casual_03_shocked.png -next;
+兰采薇:咦咦咿咿咿——闭嘴！别说了！;
+changeFigure:xinye_student_09_scheming.png -next;
+于星烨:啊哈哈，说了以后，更加不想去学校了对吧……;
+changeFigure:caiwei_casual_04_shy.png -next;
+兰采薇:有完没完……;
+changeFigure:xinye_student_01_normal.png -next;
+于星烨:但是，这让我明白了一件很重要的事。;
+于星烨:——学校也没有什么了不起的。;
+changeFigure:none -next;
+; ===== 星烨的独白 =====
+:——为什么没有早一点意识到这件事呢。;
+:究竟是因为喜欢超自然而被孤立，|还是因为被孤立而只能投入爱好的世界里。;
+渐渐我已经分不清了。;
+如果能早一点发觉的话，至少不会像现在这样，|连爱好都被弄脏了，变得像是一个借口。;
+changeFigure:xinye_student_05_serious.png -next;
+于星烨:学校没什么了不起的。那些老师也没什么了不起的。重要的是，我们迟早会毕业，会离开这里。;
+于星烨:但是首先你得去学校，要参加中考。哪怕需要咬紧牙关。好吗？;
+changeFigure:caiwei_casual_05_sad.png -next;
+changeFigure:caiwei_casual_04_shy.png -next;
+兰采薇:………………………………
+好。;
+changeFigure:none -next;
+setTextbox:hide -next;
+changeScene:ch3_tree.txt;

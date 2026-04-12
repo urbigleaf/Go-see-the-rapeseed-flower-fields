@@ -1,0 +1,24 @@
+;==============================
+;《去看油菜花田》- 开场
+; ==============================
+changeBg:black.png -next;
+bgm:巴赫 G弦上的咏叹调八音盒1.mp3 -enter=3000 -next=true;
+intro:——“如果现在死了的话|是不是就不用再承受这一切了呢”|不管是谁在人生中|都多少会产生过一百次两百次这样的念头吧。 -fontSize=small -backgroundColor=rgba(0, 0, 0, 1) -fontColor=rgba(255, 255, 255, 1) -animation=fadeIn -delayTime=1500;
+changeBg:cg_window_night.png -next;
+: -next;
+setTextbox:on -next;
+:
+……但如果拥有了超能力，;
+不就可以轻松跨越一切了吗？也不用死了！;
+——好耶、小菜一碟！;
+…………当时，望着斑斓而美丽的世界，;
+我的心中想的多半就是这样的蠢事吧。;
+setTextbox:hide -next;
+changeBg:blank.png;
+;changeBg:rapeseed_field.png;
+changeBg:rapeseed_field_title.png -enter=blur_2000 -exit=exit_001;
+;setTransition: -enter=blur_2000 -exit=exit_001 -target=bg-main
+changeBg:black.png -next;
+bgm:none;
+changeScene:chapter0.txt;
+;

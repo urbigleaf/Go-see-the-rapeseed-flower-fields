@@ -1,0 +1,89 @@
+; ==============================
+; ch3_final.txt - 星烨的道歉 + 约定 + 拉勾 + 结尾独白
+; ==============================
+changeBg:rapeseed_field.png -next;
+changeFigure:caiwei_casual_05_sad.png -next;
+兰采薇: -next;
+setTextbox:on -next;
+跟我？;
+changeFigure:xinye_student_05_serious.png -next;
+于星烨:我早就想去你家看你了。但是，我一直都不敢……|就算被你讨厌，我也应该鼓起勇气来的……！;
+changeFigure:xinye_student_03_sad.png -next;
+我光顾自己的感受……我实在是太……;
+changeFigure:caiwei_casual_01_normal.png -next;
+兰采薇:…………没事。
+我并没有期待过你的帮助。|你又能为我做什么呢？;
+changeFigure:caiwei_casual_06_smile.png -next;
+你还有你的超能力，都很没用。;
+changeFigure:xinye_student_05_serious.png -next;
+于星烨:……透明能力是很有用的！真的很有用！;
+你知道仅仅一个上午，我掌握了多少人的把柄吗。;
+只要我的能力解除了……对，我的能力一定还有别的用法，|等我把超能力用得更熟练一些，到那个时候……;
+changeFigure:xinye_student_09_scheming.png -next;
+我就会摆平一切。你什么都不用担心，只要普通来上学就好了。
+setTextbox:hide -next;
+changeFigure:caiwei_casual_03_shocked.png;
+changeFigure:caiwei_casual_06_smile.png -next;
+兰采薇: -next;
+setTextbox:on -next;
+………………哈哈、哈哈哈哈！;
+兰采薇:你果然是个笨蛋啊！！;
+setTextbox:hide -next;
+changeFigure:none;
+changeBg:cg_tree_lean.png -next;
+兰采薇: -next;
+setTextbox:on -next;
+……明天，我会去上学的。我会好好和你打招呼。你也要好好地回答我。;
+于星烨:……！当然啦！;
+changeBg:rapeseed_field.png -next;
+changeFigure:xinye_student_05_serious.png -next;
+……要是我和你打招呼呢？你会回答我吗？;
+changeFigure:caiwei_casual_01_normal.png -next;
+兰采薇:……………………你觉得呢。;
+changeFigure:xinye_student_02_shy.png -next;
+于星烨:…………………………;
+changeFigure:caiwei_casual_02_angry.png -next;
+兰采薇:…………居然在这种地方犹豫了！你是不是傻！！;
+changeFigure:caiwei_casual_06_smile.png -next;
+兰采薇:我会好好回答你的。|我们拉勾吧？;
+setTextbox:hide -next;
+changeFigure:none -next;
+changeBg:cg_rapeseed_05_smile.png;
+changeBg:rapeseed_field.png;
+changeFigure:xinye_student_02_shy.png -next;
+于星烨: -next;
+setTextbox:on -next;
+……采薇，其实，还有一件事。;
+changeFigure:caiwei_casual_01_normal.png -next;
+兰采薇:……？;
+changeFigure:xinye_student_02_shy.png -next;
+于星烨:…………算了，没什么！忘了吧！;
+setTextbox:hide -next;
+changeFigure:none -next;
+changeBg:black.png;
+changeBg:rapeseed_field_final.png -next;
+changeFigure:none -next;
+: -next;
+setTextbox:on -next;
+后来，我们就没再说什么了。|她坐在树下，轻轻地哼起一首歌来。;
+:小学的时候，在油菜花田里，|她也唱过这首歌。
+那是一首旋律哀伤的日语歌。|后来我想办法查到了歌词的意思。;
+setTextbox:hide -next;
+changeBg:black.png -next;
+: -next;
+setTextbox:on -next;
+"我要是死了，希望你能悄悄地把我忘掉。;
+要是寂寞了，就到我喜欢的|油菜花田里去哭泣吧。";
+setTextbox:hide;
+changeBg:rapeseed_field_final.png -next;
+: -next;
+setTextbox:on -next;
+——我经常想，她为什么总是喜欢哀伤的歌呢。
+她从小就是这样的女孩。但那不是她的错。;
+我多么希望，她能少一点露出寂寞的表情，少喜欢一些哀伤的东西。
+我希望她能多露出一些笑容。|但是，那一定来自是她灵魂的共鸣吧。
+——所以，我才会被她吸引。从很小的时候起。|从还不知道爱恋为何物的年龄时起。;
+setTextbox:hide;
+bgm:none -enter=3000;
+intro:——我能为你做些什么呢？|只要是能为你做的。|无论什么我都愿意去做。 -fontSize=small -backgroundColor=rgba(0, 0, 0, 1) -fontColor=rgba(255, 255, 255, 1) -animation=fadeIn -delayTime=1500;
+changeScene:chapter4.txt;

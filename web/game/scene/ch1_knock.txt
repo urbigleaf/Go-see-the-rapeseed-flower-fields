@@ -1,0 +1,33 @@
+; ==============================
+; ch1_knock.txt - 敲门（失败）→ 进入房间
+; ==============================
+changeBg:bedroom_outside.png -next;
+changeFigure:xinye_student_04_confused.png -next;
+于星烨: -next;
+setTextbox:on -next;
+——我还是没有办法敲门！;
+changeFigure:none -next;
+setTextbox:hide;
+; ===== 采薇的房间 =====
+changeBg:room_caiwei.png;
+changeFigure:xinye_student_02_shy.png;
+于星烨: -next;
+setTextbox:on -next;
+……………………我……进……来……了……………………;
+……不在？;
+于星烨:……采薇？;
+setTextbox:hide -next;
+changeFigure:none;
+playEffect:se_shower.mp3 -volume=10;
+changeFigure:xinye_student_04_confused.png;
+于星烨: -next;
+setTextbox:on -next;
+……哇，有那么巧吗？！正好赶上她在洗澡？！;
+就像工口漫画里面一样!就像工口漫画里面一样！
+changeFigure:xinye_student_02_shy.png -next;
+于星烨:不不不，不行不行——;
+于星烨:不……也不是不行吧。想想吧于星烨，超能力就是要这样用的！;
+于星烨:这可是透明人的究极之道！此刻、我就是阿布萨罗姆！;
+changeFigure:none -next;
+setTextbox:hide;
+choose:我就是阿布萨罗姆！:ch1_bathroom.txt|我是隐形黑！:ch1_bathroom.txt;

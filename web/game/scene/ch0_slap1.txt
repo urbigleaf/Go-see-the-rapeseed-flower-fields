@@ -1,0 +1,17 @@
+; ==============================
+; ch0_slap1.txt - 扇程昌旭巴掌
+; ==============================
+changeBg:classroom.png -next;
+playEffect:se_slap.mp3 -volume=20;
+changeFigure:xinye_student_09_scheming.png -left;
+changeFigure:npc_bully_A.png -next;
+于星烨:带头欺负他人之人，理应接受天罚！;
+setTextbox:hide -next;
+changeFigure:none;
+changeFigure:xinye_student_01_normal.png -left -next;
+changeFigure:npc_bully_B.png -next;
+于星烨:  -next;
+setTextbox:on  -next;
+——轮到你了，江逸飞！
+见者有份！
+choose:扇他巴掌:ch0_slap2.txt;

@@ -1,0 +1,13 @@
+; ==============================
+; ch3_choice1_good.txt - "你不要听他的！你很正常！"（TRUE END路线）
+; ==============================
+changeBg:rapeseed_field.png -next;
+changeFigure:caiwei_casual_04_shy.png -next;
+兰采薇: -next;
+setTextbox:on -next;
+嗯。我知道。……我现在也这么觉得。;
+changeFigure:caiwei_casual_06_smile.png -next;
+…………谢谢你。
+changeFigure:none -next;
+setTextbox:hide -next;
+changeScene:ch3_apology.txt;

@@ -1,0 +1,10 @@
+; ==============================
+; ch0_shout.txt - 大喊大叫分支
+; ==============================
+changeBg:cg_shout.png ;
+于星烨: -next;
+setTextbox:on -next;
+嘎嗷——！
+playEffect:se_koushao.mp3 -volume=10;
+于星烨:——我是不是傻？！
+changeScene:ch0_part2.txt;

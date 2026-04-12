@@ -1,0 +1,143 @@
+; ==============================
+; ch1_after_bath.txt - 浴室后的对话
+; ==============================
+changeBg:room_caiwei.png;
+changeFigure:caiwei_casual_01_normal.png -right;
+changeFigure:xinye_student_02_shy.png -left;
+于星烨: -next;
+setTextbox:on -next;
+…………事情就是这样。;
+changeFigure:none -right -next;
+changeFigure:none -left;
+changeFigure:caiwei_casual_01_normal.png -next;
+兰采薇:……(叹气）。;
+changeFigure:xinye_student_01_normal.png -next;
+于星烨:你不相信吗？;
+changeFigure:caiwei_casual_02_angry.png -next;
+兰采薇:那个……毕竟你已经这样那样的展示过了。|眼见为实，我姑且信你。;
+changeFigure:caiwei_casual_01_normal.png -next;
+兰采薇:所以你是通过念杂志上介绍的咒语，获得了超能力？|而且说不定还得是你自己改编的特别版才能起效？;
+changeFigure:xinye_student_02_shy.png -next;
+于星烨:那毕竟我没完全按照杂志上的念啊。
+劝你不要轻易尝试，因为我还不知道解咒方法。;
+setTextbox:hide -next;
+changeFigure:none;
+changeFigure:caiwei_casual_02_angry.png -next;
+兰采薇: -next;
+setTextbox:on -next;
+————"Disillusionment"！"完美隐形！阿玛忒拉斯！;
+changeFigure:xinye_student_04_confused.png -next;
+于星烨:叫你不要尝试了啊啊啊——;
+changeFigure:caiwei_casual_02_angry.png -next;
+兰采薇:我为什么要照你说的做？！;
+changeFigure:caiwei_casual_01_normal.png -next;
+playEffect:se_dong.mp3 -volume=15 -next;
+兰采薇:我没有变呢。;
+兰采薇:而且，为什么我却可以看到你……？;
+changeFigure:xinye_student_02_shy.png -next;
+于星烨:这个…………我也…………;
+毕竟是超能力、总会伴随着各种各样的疑团才对吧…………|啊哈哈、啊哈哈哈…………
+changeFigure:caiwei_casual_02_angry.png -next;
+兰采薇:………………………………………………………………
+不要动。;
+changeFigure:xinye_student_08_surprised.png -next;
+于星烨:……？;
+playEffect:se_cloth.mp3 -volume=20;
+changeFigure:caiwei_casual_01_normal.png -next;
+兰采薇:……也能碰到你。;
+setTextbox:hide -next;
+changeFigure:none -next;
+: -next;
+setTextbox:on -next;
+她的手指轻轻地点在我的肩膀上。|好像有不存在的静电
+“啪”地，击打了一下我的身体。
+changeFigure:xinye_student_02_shy.png -next;
+于星烨:你一下子就接受了……|不觉得奇怪吗，这很扯吧。;
+changeFigure:caiwei_casual_01_normal.png -next;
+兰采薇:是很扯。——无所谓啦。;
+changeFigure:xinye_student_01_normal.png -next;
+于星烨:？;
+changeFigure:caiwei_casual_01_normal.png -next;
+兰采薇:说不定现在我能看见你也是我的幻觉呢。;
+changeFigure:xinye_student_03_sad.png -next;
+于星烨:不，至少这一点……我可以作证！|我不是你幻想出来的！;
+changeFigure:caiwei_casual_01_normal.png -next;
+兰采薇:啊~啊~ 幻觉说他自己不是幻觉~;
+changeFigure:caiwei_casual_02_angry.png -next;
+兰采薇:无所谓啦。我根本不在乎。也说不定，这也是宇宙给我的什么暗号。;
+changeFigure:xinye_student_06_happy.png -next;
+于星烨:这句话！我在《飞碟探索》上看过！|来自仙女座的外星人巴夏留给地球的讯息！;
+changeFigure:caiwei_casual_03_shocked.png -next;
+兰采薇:你这个人
+changeFigure:caiwei_casual_01_normal.png -next;
+还在沉迷这个啊……;
+changeFigure:caiwei_casual_02_angry.png -next;
+兰采薇:你知不知道，就是因为这样你才会……;
+changeFigure:xinye_student_08_surprised.png -next
+于星烨:真的获得了超能力？;
+setTextbox:hide -next;
+changeFigure:none;
+changeFigure:caiwei_casual_01_normal.png -next;
+setTextbox:on -next;
+兰采薇:………………拉倒吧。
+你别动。;
+playEffect:se_drawer.mp3 -volume=10;
+兰采薇:不要动。因为不确定你的透明能力的边界在哪里，现在先这样就好了。乱动的话，针会扎到你。;
+changeFigure:caiwei_casual_02_angry.png -next;
+兰采薇:你衬衣的六颗扣子里，五颗摇摇欲坠。|再过一阵子，自然就会变成敞怀穿衬衫那种变态了。;
+changeFigure:xinye_student_02_shy.png -next;
+于星烨:谢谢。;
+……真不……
+……不好意思……
+changeFigure:caiwei_casual_01_normal.png -next;
+兰采薇:没事。;
+……说吧。
+changeFigure:xinye_student_02_shy.png -next;
+于星烨:说……？
+changeFigure:caiwei_casual_01_normal.png -next;
+兰采薇:说你来我家到底是干嘛来的。视你的回答，我会考虑要不要放弃报警。;
+changeFigure:xinye_student_04_confused.png -next;
+于星烨:……报、报警?!;
+changeFigure:caiwei_casual_01_normal.png -next;
+兰采薇:嗯，你犯了非法侵入住宅罪。念你是未成年人，可能只会拘留个24小时，然后通知学校和家人。;
+运气不错。;
+changeFigure:xinye_student_04_confused.png -next;
+于星烨:！！不要报警啊！;
+……不对啊！我怕什么！我是透明人！！;
+changeFigure:caiwei_casual_02_angry.png -next;
+兰采薇:快说。总不可能是老师让你来送作业的吧。;
+changeFigure:xinye_student_01_normal.png -next;
+bgm:none -enter=3000;
+于星烨:……我说！因为你……半个学期都没来过学校啊。|我就……有点担心。;
+平时你也不走出房间吗？就算是出去旅游也比窝在房间里要好点啊。;
+changeFigure:caiwei_casual_01_normal.png -next;
+兰采薇:和你没有关系吧。;
+changeFigure:xinye_student_03_sad.png -next;
+于星烨:…………是和我没关系。|只是……;
+changeFigure:xinye_student_05_serious.png -next;
+于星烨:听我说……！
+今天外面的天气真的很好！;
+changeFigure:caiwei_casual_01_normal.png -next;
+兰采薇:？从窗外能看得出来。;
+changeFigure:none -next;
+setTextbox:hide -next;
+changeBg:cg_window_view.png;
+changeBg:room_caiwei.png -next;
+changeFigure:xinye_student_05_serious.png -next;
+于星烨: -next;
+setTextbox:on -next;
+所以说……
+我不是来劝你上学的！
+我是来的途中突然想到的……！
+今天、要不要和我一起出门去哪里玩？;
+changeFigure:caiwei_casual_01_normal.png -next;
+兰采薇:……………………你这个人。
+………………………………
+……………………………………
+你要带我去哪里玩？;
+changeFigure:xinye_student_02_shy.png -next;
+于星烨:要不要一起去……那个，去看油菜花田吧？;
+changeFigure:none -next;
+setTextbox:hide -next;
+changeBg:black.png;
+changeScene:chapter2.txt;

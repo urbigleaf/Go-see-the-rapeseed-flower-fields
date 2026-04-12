@@ -1,0 +1,10 @@
+; 选择1 - 不好的回应
+setVar:trust=0 -next;
+changeBg:rapeseed_field.png -next;
+changeFigure:xinye_normal.png -left;
+changeFigure:caiwei_angry.png -right;
+于星烨:你是不是……生病了？;
+兰采薇:……;
+:采薇的表情变得冰冷。;
+兰采薇:算了。这和你有什么关系呢。;
+changeScene:chapter3_part2.txt;

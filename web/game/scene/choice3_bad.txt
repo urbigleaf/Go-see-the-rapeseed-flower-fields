@@ -1,0 +1,26 @@
+; 选择3 - 不好的回应 → 死结局
+changeBg:rapeseed_field.png -next;
+changeFigure:xinye_sad.png -left;
+changeFigure:caiwei_sad.png -right;
+于星烨:也许我们都有问题吧……;
+:采薇沉默了很久。;
+changeFigure:caiwei_normal.png -right;
+兰采薇:……是啊。也许吧。;
+:她的心仍然是上了锁的。;
+:你没能找到打开它的钥匙。;
+changeFigure:none -left -next;
+changeFigure:none -right -next;
+changeBg:rapeseed_field.png;
+:她转过身，向着油菜花田的深处走去。;
+:背影越来越小。;
+:金色的花浪将她淹没。;
+changeBg:black.png;
+:那之后，采薇依然没有来上学。;
+:星烨的透明能力在第二天自动解除了。;
+:一切都回到了原来的样子。;
+:仿佛什么都没有发生过。;
+:只是，那片油菜花田的风景，永远留在了记忆里。;
+;
+:——BAD ENDING——;
+:「被锁住的心」;
+end;

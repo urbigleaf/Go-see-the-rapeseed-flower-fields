@@ -1,0 +1,10 @@
+; ==============================
+; ch0_perform.txt - 即兴表演分支
+; ==============================
+changeBg:cg_perform.png;
+changeFigure:none -next;
+于星烨:  -next;
+setTextbox:on  -next;
+合体！元始天尊！;
+……哈哈、但是大家没有任何的反应！！
+changeScene:ch0_part2.txt;

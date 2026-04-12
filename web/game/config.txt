@@ -1,0 +1,7 @@
+Game_name:去看油菜花田;
+Game_key:ycht2026;
+Title_img:title_bg.png;
+Title_bgm:bgm_main.mp3;
+Game_Logo:;
+Enable_Appreciation:false;
+Default_Language:zh_CN;

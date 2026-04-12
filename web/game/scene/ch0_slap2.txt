@@ -1,0 +1,72 @@
+; ==============================
+; ch0_slap2.txt - 扇江逸飞巴掌
+; ==============================
+changeBg:classroom.png -next;
+changeFigure:xinye_student_05_serious.png -left -next;
+changeFigure:npc_bully_B.png -next;
+playEffect:se_slap.mp3 -volume=20;
+于星烨:每次一个人的时候，你就变得不敢看我了。;
+但是只要程昌旭一在，你就像变成了另一个人。;
+于星烨:你以为作为从犯，你就没有罪了吗？;
+setTextbox:hide -next;
+changeFigure:none -left -next;
+changeFigure:none;
+changeFigure:xinye_student_03_sad.png;
+于星烨:  -next;
+setTextbox:on  -next;
+——腻了。;
+我干嘛要报复这些人呢。|我又不在乎他们。;
+报复了他们也不会让我快乐。;
+changeFigure:xinye_student_01_normal.png -next;
+………………出去看看吧。;
+changeFigure:none -next;
+setTextbox:hide;
+
+;=====走廊======
+changeBg:cg_corridor.png;
+bgm:Arabesque-in-E-Nr-1.mp3 -next;
+setTextbox:on -next;
+:花了大概一个小时，把学校的每个房间都看了个遍。;
+目睹的景象让我大开眼界。|感觉像是身心都经历了一场洗礼。;
+不过，很快也腻烦了。;
+——我总是渴望能够“俯瞰”自己的生活。;
+如果能够客观地、从高处，将我所处的环境，用冷静的眼睛看得一清二楚的话。;
+我多少就能明白自己身处何方了。;
+那就像是在最古老的冒险RPG中扮演勇者，当务之急是给自己搞到一张地图。;
+但是、哈哈，你们玩新时代RPG的人，估计不会明白我在说什么。;
+总之，我想要俯瞰，想要理解自己到底身处在人生哪个阶段，是在哪里被卡住了。;
+而且现在我确实获得了理解这一切的能力，我窥见学校的全貌。;
+但是——我还得能够解除能力才行啊！！;
+;bgm:none -enter=3000;
+; ===== 课间：女生对话 =====
+setTextbox:hide;
+changeBg:classroom.png;
+playEffect:se_school_chatter.mp3 -volume=10;
+changeFigure:npc_girl_A_01_normal.png -next;
+setTextbox:on -next;
+女生A:采薇今天也没来上课啊。;
+changeFigure:npc_girl_B_01_normal.png -next;
+女生B:于星烨也没来。……你说这样下去真的好吗，马上就要初三了……老师也不管……;
+changeFigure:npc_girl_A_04_sad.png -next;
+女生A:这就叫"教育分流"。他们不是一直在强调吗，"他们没有义务把每一个人都培养成材"。;
+changeFigure:npc_girl_B_01_normal.png -next;
+女生B:那也不是就什么都可以不管的意思吧……;
+changeFigure:none -next;
+setTextbox:hide;
+playEffect:none;
+;=====星烨的独白=====
+changeBg:cg_empty_desk.png -next;
+bgm:Arabesque-in-E-Nr-1.mp3;
+:  -next;
+setTextbox:on -next;
+……她今天也没有来上课。|都半个学期了吧。;
+偶尔像是被老师或者父母劝说了，不情不愿地来上了一两天学，很快又不来了。;
+setTextbox:hide -next;
+changeBg:classroom.png;
+changeFigure:xinye_student_03_sad.png -next;
+setTextbox:on -next;
+于星烨:我觉得我大概知道，她不来上课的理由。;
+于星烨:…………我想……;
+bgm:none -enter=3000;
+changeFigure:none -next;
+choose:去她家看看:ch0_go.txt|还是算了:ch0_hesitate.txt;

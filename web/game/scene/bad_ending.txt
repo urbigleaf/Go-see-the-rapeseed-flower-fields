@@ -1,0 +1,22 @@
+; ==============================
+; bad_ending.txt - 共用BAD END场景
+; ==============================
+changeBg:cg_rapeseed_golden.png -next;
+changeFigure:caiwei_casual_01_normal.png -next;
+兰采薇: -next;
+setTextbox:on -next;
+…………突然想回去了。我要走了。你呢？;
+changeFigure:xinye_student_03_sad.png -next;
+于星烨:我也走。;
+changeFigure:none -next;
+changeBg:cg_rapeseed_06_badend.png -next;
+playEffect:none -id=valley;
+:她的声音和表情，突然变得冰冷。我不知道我怎么惹怒了她，
+回去的途中，她一次也没有回头确认我有没有跟上。只是沉默地走在前方。;
+她的背影显得孤独，脆弱。|却激烈地传达着拒绝的气息。;
+我没有勇气向她伸出手……就这样一直走回车站。
+意识到时，我已经跟丢了她。
+changeBg:black.png -next;
+我失去了她……;
+——BAD ENDING——;
+end;

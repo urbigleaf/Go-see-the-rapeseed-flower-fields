@@ -1,0 +1,8 @@
+; ==============================
+; ch0_hesitate.txt - 还是算了（犹豫后还是去）
+; ==============================
+changeFigure:xinye_student_04_confused.png -next;
+于星烨:……去看看啊！都变成透明人了还怕什么！你这胆小鬼！;
+changeFigure:none -next;
+bgm:none;
+changeScene:chapter1.txt;

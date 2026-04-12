@@ -1,0 +1,22 @@
+; ==============================
+; ch1_wall.txt - 穿墙进去
+; ==============================
+changeBg:living_room.png;
+changeFigure:xinye_student_02_shy.png -next;
+于星烨: -next;
+setTextbox:on -next;
+感觉自己逐渐在养成不得了的习惯……;
+changeFigure:none -next;
+changeFigure:xinye_student_01_normal.png -next;
+于星烨:……果然，她的父母都上班去了吧。;
+于星烨:她的房间是——;
+setTextbox:hide -next;
+changeFigure:none -next;
+changeBg:bedroom_outside.png;
+changeFigure:xinye_student_01_normal.png -next;
+于星烨: -next;
+setTextbox:on -next;
+……这次一定得好好敲门。;
+changeFigure:none -next;
+setTextbox:hide;
+choose:敲敲门:ch1_knock.txt;

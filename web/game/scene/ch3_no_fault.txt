@@ -1,0 +1,91 @@
+; ==============================
+; ch3_no_fault.txt - "你没有错" → TRUE END对话
+; ==============================
+changeBg:rapeseed_field.png -next;
+bgm:巴赫 G弦上的咏叹调木笛和弦乐版.mp3 -next;
+changeFigure:xinye_student_05_serious.png -next;
+于星烨: -next;
+setTextbox:on -next;
+……你搞错了，采薇。首先，那并不是你的义务。
+而且，我也不想让你为我挺身而出。|如果他们也欺负你该怎么办？我不想让事情变成那样。;
+你一直以来的做法就是正确的。|你不应该让自己也成为那些人的目标。;
+changeFigure:caiwei_casual_05_sad.png -next;
+兰采薇:但是…………………………
+changeFigure:xinye_student_05_serious.png -next;
+于星烨:听我说，确实我是受到霸凌的人，我很没用，就你说的那样。|我是一个笨蛋。;
+于星烨:但是，我也曾仔细考虑过发生在我身上的事。;
+于星烨:“为什么会变成这样？”“这到底是谁的错？”;
+怪我自己吗？还是怪欺负我的人？或者说，怪班主任对我们视而不见？
+changeFigure:caiwei_casual_05_sad.png -next;
+兰采薇:总不可能是你的错吧！当然是他们的错啊……！;
+changeFigure:xinye_student_01_normal.png -next;
+于星烨:可是就像你说的一样，|“这些无聊的人占了世界上大多数，所以我们不得不顺着他们的习惯来生活。”;
+于星烨:不过，世界上同样也有很多有趣的人和善良的人。
+有人创办了《飞碟》杂志，向地球传播仙女座的资讯。;
+有人仅仅是因为没有为他人付出更多，就会感到良心不安。;
+一想到世界上还有你在，还有这些人在，我就会觉得未来还不错。;
+changeFigure:caiwei_casual_01_normal.png -next;
+兰采薇:你会觉得未来还不错……吗。;
+changeFigure:xinye_student_06_happy.png -next;
+于星烨:嗯。我把在班上被欺负的事，看做是对我的试炼。;
+changeFigure:xinye_student_01_normal.png -next;
+如果我回应他们，只会变得和他们一样无聊。;
+所以我不想理睬他们，而且，我也确实没有办法和他们对抗。;
+我的精力有限，我只想去在意……值得我在意的人。;
+changeFigure:caiwei_casual_04_shy.png -next;
+兰采薇:……原来你是这样想的。;
+changeFigure:xinye_student_02_shy.png -next;
+于星烨:……嗯。;
+setTextbox:hide -next;
+changeFigure:caiwei_casual_04_shy.png;
+changeFigure:caiwei_casual_01_normal.png -next;
+兰采薇: -next;
+setTextbox:on -next;
+……你很坚强呢。也许我也应该学习你的思考方式。;
+changeFigure:none -next;
+:——但其实，我说谎了。|我欺骗了她。;
+我是在刚刚那一刻，才脱口而出这些话的。|并不是什么深思熟虑。;
+甚至早上我才刚刚想过，“复仇”，|还有，“为什么偏偏是我”。
+但是现在，至少在喜欢的女孩面前，|——让我耍个帅吧。;
+setTextbox:hide -next;
+changeBg:black.png;
+changeBg:rapeseed_field_final.png -next;
+: -next;
+setTextbox:on -next;
+——金色的油菜花在风中摇曳，她的声音轻轻响在耳边,|……微微颤抖着。
+changeFigure:caiwei_casual_01_normal.png -next;
+兰采薇:…………我从来没有想象过自己的未来。;
+我只觉得世界烂透了，到处都是烂人和烂事。
+我也不觉得人能只靠“爱好”和“喜欢”这种东西就能活下去。;
+changeFigure:caiwei_casual_05_sad.png -next;
+……从小我就知道，'这个世界上，并没有我真正的容身之处'。;
+我就是这样一个灰暗的人。
+changeFigure:caiwei_casual_01_normal.png -next;
+不过我不去学校，和刚刚说的那些没有关系。
+我不去上学，是因为我逃避了，没有去做自己认为该做的事。;
+所以我被自己唾弃，我不再是我自己。
+changeFigure:caiwei_casual_05_sad.png -next;
+我很狡猾。你说的那些话，我对自己都说过。
+但是我的良心知道，“那些只是借口”。|我没有做本该做的事，我逃避了自己的未来。;
+就这样，我害怕上学，害怕面对同学、老师、 还有你……还有我自己。
+我总觉得会有一个决定性的时刻，有一个人会来到我面前，对我说，;
+“你没有资格评判那些你厌恶的人。|你和他们一样卑鄙”。;
+我害怕被大家发现这一点。
+setTextbox:hide -next;
+changeFigure:none -next;
+;=====采薇独白======
+changeBg:black.png -next;
+: -next;
+setTextbox:on -next;
+所以我只能把自己裹在被子里，|不去面对"明天一如既往会到来"。;
+:我没有通过属于我的考验，|我的世界停止了。
+卡在了14岁的某一天，止步不前。|像被一块无法绕开的巨石挡住了前路。;
+changeBg:rapeseed_field.png -next;
+changeFigure:caiwei_casual_05_sad.png -next;
+setTextbox:on -next;
+兰采薇:我也希望会有谁注意到我，过来帮帮我，拯救我。;
+但是老师也好，妈妈也好，叔叔也好，谁也注意不到我……;
+setTextbox:hide -next;
+changeFigure:xinye_student_03_sad.png;
+changeFigure:none -next;
+choose:采薇，是我要向你道歉。:ch3_final.txt;

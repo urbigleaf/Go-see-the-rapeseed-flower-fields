@@ -1,0 +1,9 @@
+; 选择1 - 好的回应
+setVar:trust=1 -next;
+changeBg:rapeseed_field.png -next;
+changeFigure:xinye_sad.png -left;
+changeFigure:caiwei_sad.png -right;
+于星烨:那一定很辛苦吧……谢谢你愿意告诉我。;
+changeFigure:caiwei_normal.png -right;
+兰采薇:……算了。这和你有什么关系呢。;
+changeScene:chapter3_part2.txt;

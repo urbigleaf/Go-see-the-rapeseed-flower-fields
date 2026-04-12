@@ -1,0 +1,16 @@
+; ==============================
+; ch3_accept_apology.txt - "好吧，我接受道歉" → BAD END
+; ==============================
+changeBg:rapeseed_field.png -next;
+changeFigure:caiwei_casual_03_shocked.png;
+changeFigure:caiwei_casual_01_normal.png -next;
+兰采薇: -next;
+setTextbox:on -next;
+…………;
+changeFigure:xinye_student_01_normal.png -next;
+于星烨:怎么了？不是要跟我道歉的吗。;
+changeFigure:caiwei_casual_03_shocked.png -next;
+兰采薇:………………………………………………;
+changeFigure:none -next;
+setTextbox:hide -next;
+changeScene:bad_ending.txt;

@@ -1,0 +1,29 @@
+; ==============================
+; ch0_part2.txt - 合流后：测试能力 + 扇巴掌 + 独白 + 最终选择
+; ==============================
+changeBg:classroom.png -next;
+changeFigure:xinye_student_06_happy.png -next;
+于星烨:天啊！我真的获得超能力了！;
+大家看不到我，也听不到我的声音！;
+changeFigure:xinye_student_03_sad.png -next;
+于星烨:不过，我也不能和周围交互……;
+changeFigure:xinye_student_04_confused.png -next;
+啊啊啊好麻烦啊——;
+干脆变回去吧！;
+但是、;
+我不知道解除透明化的咒语！！;
+changeFigure:xinye_student_01_normal.png -next;
+算了。
+来都来了。;
+changeFigure:xinye_student_09_scheming.png -next;
+正好有些事，我老早就想试试看了。
+setTextbox:hide -next;
+changeFigure:none;
+changeFigure:xinye_student_01_normal.png -left;
+changeFigure:npc_bully_A.png;
+于星烨:  -next;
+setTextbox:on  -next;
+程昌旭，看着我的眼睛
+——LOOK AT MY EYES！ -fontSize=large;
+changeFigure:none -next;
+choose:扇他巴掌:ch0_slap1.txt;
