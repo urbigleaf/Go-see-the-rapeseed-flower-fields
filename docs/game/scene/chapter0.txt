@@ -18,7 +18,7 @@ changeFigure:xinye_student_04_confused.png -next;
 ——怎么可能啊！！;
 setTextbox:hide -next;
 changeFigure:none;
-playEffect:none-next;
+playEffect:none -next;
 changeBg:classroom.png;
 playEffect:se_bell.mp3 -volume=10;
 changeFigure:npc_teacher_chen.png -next;
