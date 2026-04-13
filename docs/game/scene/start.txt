@@ -20,5 +20,7 @@ changeBg:rapeseed_field_title.png -enter=blur_2000 -exit=exit_001;
 ;setTransition: -enter=blur_2000 -exit=exit_001 -target=bg-main
 changeBg:black.png -next;
 bgm:none;
+bgm:Arabesque-in-E-Nr-1.mp3 -enter=3000 -next=true;
+bgm:none;
 changeScene:chapter0.txt;
 ;
