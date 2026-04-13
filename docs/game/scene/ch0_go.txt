@@ -2,4 +2,6 @@
 ; ch0_go.txt - 去她家看看（直接转入）
 ; ==============================
 changeFigure:none -next;
+setTextbox:hide -next;
+bgm:none;
 changeScene:chapter1.txt;

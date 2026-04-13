@@ -23,7 +23,7 @@ changeFigure:xinye_student_04_confused.png;
 于星烨: -next;
 setTextbox:on -next;
 ……哇，有那么巧吗？！正好赶上她在洗澡？！;
-就像工口漫画里面一样!就像工口漫画里面一样！
+就像工口漫画里面一样!|就像工口漫画里面一样！
 changeFigure:xinye_student_02_shy.png -next;
 于星烨:不不不，不行不行——;
 于星烨:不……也不是不行吧。想想吧于星烨，超能力就是要这样用的！;

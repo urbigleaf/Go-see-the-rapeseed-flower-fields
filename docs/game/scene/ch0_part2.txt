@@ -11,6 +11,7 @@ changeFigure:xinye_student_04_confused.png -next;
 啊啊啊好麻烦啊——;
 干脆变回去吧！;
 但是、;
+changeFigure:xinye_student_02_shy.png -next;
 我不知道解除透明化的咒语！！;
 changeFigure:xinye_student_01_normal.png -next;
 算了。

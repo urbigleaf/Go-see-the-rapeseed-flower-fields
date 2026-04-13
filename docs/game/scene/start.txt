@@ -15,10 +15,10 @@ setTextbox:on -next;
 我的心中想的多半就是这样的蠢事吧。;
 setTextbox:hide -next;
 changeBg:blank.png;
-;changeBg:rapeseed_field.png;
+changeBg:rapeseed_field.png;
 changeBg:rapeseed_field_title.png -enter=blur_2000 -exit=exit_001;
 ;setTransition: -enter=blur_2000 -exit=exit_001 -target=bg-main
-changeBg:black.png -next;
-bgm:none;
+changeBg:blank.png -next;
+bgm:none -enter=3000 -next;
 changeScene:chapter0.txt;
 ;

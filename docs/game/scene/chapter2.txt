@@ -1,9 +1,10 @@
 ; ==============================
 ; 第2章 春天的轻轨
 ; ==============================
+changeBg:black.png;
+bgm:debussy_clair_de_lune.mp3;
 changeBg:train_inside.png -next;
 changeFigure:none;
-bgm:debussy_clair_de_lune.mp3 -next;
 : -next;
 setTextbox:on -next;
 小学六年级的时候，我搬了家。;
@@ -16,7 +17,7 @@ changeBg:black.png;
 changeFigure:none -next;
 :小学五年级的时候，爸爸因为工伤去世了。;
 setTextbox:hide;
-changeBg:apartment_outside.png -next;
+changeBg:apartment_outside.png -transform={"colorRed":191,"colorGreen":181,"colorBlue":145} -next;
 changeFigure:caiwei_child_02_angry.png -left -next;
 changeFigure:xinye_child_08_sad.png -right -next;
 兰采薇: -next;
@@ -147,8 +148,8 @@ setTextbox:hide -next;
 ; ===== 闪回：被欺负 =====
 
 changeFigure:none -next;
-changeBg:cg_magazine.png -transform={"colorRed":219,"colorGreen":200,"colorBlue":75} -next;
-changeBg:classroom.png -next;
+changeBg:cg_magazine.png -transform={"colorRed":191,"colorGreen":181,"colorBlue":145};
+changeBg:classroom.png -transform={"colorRed":191,"colorGreen":181,"colorBlue":145} -next;
 playEffect:se_school_chatter.mp3 -volume=10;
 changeFigure:npc_bully_A.png -next;
 setTextbox:on -next;

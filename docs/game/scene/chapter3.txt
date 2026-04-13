@@ -60,9 +60,11 @@ changeFigure:xinye_student_08_surprised.png -next;
 changeFigure:caiwei_casual_01_normal.png -next;
 兰采薇:？;
 changeFigure:xinye_student_01_normal.png -next;
-于星烨:从小我就觉得……你又聪明，又有主见，又很坚强。……而且你总是对的。|你完全预判了我。;
-changeFigure:caiwei_casual_04_shy.png;
-兰采薇:……………………什么嘛……;
+于星烨:从小我就觉得……你又聪明，又有主见，又很坚强。|……而且你总是对的。你完全预判了我。;
+changeFigure:caiwei_casual_01_normal.png -next;
+兰采薇:……………………;
+changeFigure:caiwei_casual_04_shy.png -next;
+什么嘛………………;
 changeFigure:xinye_student_01_normal.png -next;
 于星烨:我是想过哦，可能是因为你太聪明了，所以才不想去学校。
 毕竟这种学校，确实没什么值得期待的。同学都是一般人，也理解不了你。;

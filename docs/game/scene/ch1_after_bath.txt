@@ -49,8 +49,7 @@ setTextbox:hide -next;
 changeFigure:none -next;
 : -next;
 setTextbox:on -next;
-她的手指轻轻地点在我的肩膀上。|好像有不存在的静电
-“啪”地，击打了一下我的身体。
+她的手指轻轻地点在我的肩膀上。|好像有不存在的静电“啪”地碰了一下我的身体。
 changeFigure:xinye_student_02_shy.png -next;
 于星烨:你一下子就接受了……|不觉得奇怪吗，这很扯吧。;
 changeFigure:caiwei_casual_01_normal.png -next;
@@ -74,7 +73,7 @@ changeFigure:caiwei_casual_01_normal.png -next;
 changeFigure:caiwei_casual_02_angry.png -next;
 兰采薇:你知不知道，就是因为这样你才会……;
 changeFigure:xinye_student_08_surprised.png -next
-于星烨:真的获得了超能力？;
+于星烨:——真的获得了超能力？;
 setTextbox:hide -next;
 changeFigure:none;
 changeFigure:caiwei_casual_01_normal.png -next;
@@ -97,9 +96,9 @@ changeFigure:xinye_student_02_shy.png -next;
 changeFigure:caiwei_casual_01_normal.png -next;
 兰采薇:说你来我家到底是干嘛来的。视你的回答，我会考虑要不要放弃报警。;
 changeFigure:xinye_student_04_confused.png -next;
-于星烨:……报、报警?!;
+于星烨:……已经以报警为前提了吗?!;
 changeFigure:caiwei_casual_01_normal.png -next;
-兰采薇:嗯，你犯了非法侵入住宅罪。念你是未成年人，可能只会拘留个24小时，然后通知学校和家人。;
+兰采薇:嗯，你犯了非法侵入住宅罪。|念你是未成年人，可能只会拘留个24小时，然后通知学校和家人。;
 运气不错。;
 changeFigure:xinye_student_04_confused.png -next;
 于星烨:！！不要报警啊！;
@@ -126,18 +125,18 @@ changeBg:room_caiwei.png -next;
 changeFigure:xinye_student_05_serious.png -next;
 于星烨: -next;
 setTextbox:on -next;
-所以说……
-我不是来劝你上学的！
-我是来的途中突然想到的……！
-今天、要不要和我一起出门去哪里玩？;
+所以、我在来的路上|临时想到了一个绝妙的点子……！;
+今天、要不要出门，和我一起出去玩？;
+——你看，我不是来劝你上学的！;
+
 changeFigure:caiwei_casual_01_normal.png -next;
-兰采薇:……………………你这个人。
-………………………………
-……………………………………
+兰采薇:……………………;
+你这个人。;
+………………………………;
+……………………………………;
 你要带我去哪里玩？;
 changeFigure:xinye_student_02_shy.png -next;
 于星烨:要不要一起去……那个，去看油菜花田吧？;
 changeFigure:none -next;
 setTextbox:hide -next;
-changeBg:black.png;
 changeScene:chapter2.txt;
