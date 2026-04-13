@@ -5,7 +5,7 @@ changeBg:black.png;
 playEffect:se_hairdryer.mp3 -volume=10 ;
 changeBg:cg_bathroom_mirror.png -next;
 changeFigure:none -next;
-changeFigure:caiwei_towel.png;
+;changeFigure:caiwei_towel.png;
 changeBg:bathroom.png -next;
 changeFigure:caiwei_towel_01_shocked.png -next;
 兰采薇: -next;
