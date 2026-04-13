@@ -4,6 +4,7 @@
 changeBg:classroom.png;
 playEffect:se_school_chatter.mp3 -volume=15;
 changeBg:cg_magazine.png -next;
+bgm:Arabesque-in-E-Nr-1.mp3 -volume=0 -next;
 于星烨: -next;
 setTextbox:on -next;
 ……;
@@ -62,4 +63,5 @@ changeFigure:xinye_student_05_serious.png -next;
 于星烨:总之先来测试一下。;
 setTextbox:hide -next;
 changeFigure:none -next;
+bgm:none;
 choose:大喊大叫:ch0_shout.txt|即兴表演:ch0_perform.txt;
